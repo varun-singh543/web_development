@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> forms </title>
+</head>
+<body>
+    <h1> form for selection participants in hackhtones </h1>
+    <form action = "post"> 
+        <div> 
+        <label for="username">Enter Your Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username">
+        </div>
+
+
+        <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="coding" name="coding" values="yes">
+            <label for="coding">know about coding</label>
+            </div>
+            <div>
+                <label for="comment">enter your comment here </label>
+            </div>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+            
+            <div>
+                <select name="role">
+                    <option value="penitration tester">penitration tester</option>
+                    <option value="baunty hunter">baunty hunter</option>
+                    <option value="fullstack developer">fullstack developer</option>
+                </select>
+            </div>
+    </form>
+</body>
+</html>
